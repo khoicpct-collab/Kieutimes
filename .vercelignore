@@ -1,1 +1,15 @@
-
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+*.env
+*.log
+.DS_Store
+node_modules/
+credentials.json  # Để file này ở local, dùng biến môi trường trên Vercel
+*.pem
+*.key
+test/
+tests/
+*.sqlite3
